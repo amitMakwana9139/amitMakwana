@@ -10,8 +10,8 @@ const projectData = {
         title: "Traveldate",
         description: "Connect travelers looking to share journeys.",
         images: [
-            "/images/traveldate/1.jfif",
-            "/images/traveldate/2.jfif",
+            "/images/traveldate/t1.jpg",
+            "/images/traveldate/t2.jpg",
         ],
     },
     "adopus-recruitment-portal": {
