@@ -9,7 +9,7 @@ import {
     FaChevronRight,
     FaNode,
 } from "react-icons/fa";
-import { SiTailwindcss, SiGraphql } from "react-icons/si";
+import { SiTailwindcss, SiGraphql, SiWordpress } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -65,6 +65,11 @@ const Technologies = () => {
             title: "GraphQL",
             description: "A query language for APIs and a runtime for executing those queries with your data.",
             icon: <SiGraphql className="text-6xl text-white" />,
+        },
+        {
+            title: "WordPress",
+            description: "A powerful and flexible content management system (CMS) for building websites and blogs.",
+            icon: <SiWordpress className="text-6xl text-white" />,
         },
     ];
 
