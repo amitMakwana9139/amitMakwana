@@ -48,6 +48,12 @@ const Portfolio = () => {
             description: "",
             images: ["/images/EyeTest/eyeTest.png"],
         },
+        {
+            title: "Ecommerce store",
+            category: "Landing Pages",
+            description: "",
+            images: ["/images/drg/landingPage1.png"],
+        },
     ];
 
     const filteredProjects =

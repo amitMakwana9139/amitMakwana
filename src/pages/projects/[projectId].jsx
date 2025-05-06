@@ -55,6 +55,11 @@ const projectData = {
         description: "",
         images: ["/images/EyeTest/eyeTest.png"],
     },
+    "ecommerce-store": {
+        title: "ecommerce store",
+        description: "An eCommerce platform is a software solution that allows businesses to create and manage online stores to sell products or services over the internet.",
+        images: ["/images/drg/landingPage1.png", "/images/drg/landingPage2.png", "/images/drg/landingPage3.png", "/images/drg/landingPage4.png"],
+    },
 };
 
 
