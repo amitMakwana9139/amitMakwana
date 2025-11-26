@@ -10,7 +10,7 @@ import {
     FaNode,
 } from "react-icons/fa";
 import { SiTailwindcss, SiGraphql, SiWordpress } from "react-icons/si";
-import { RiNextjsFill } from "react-icons/ri";
+import { RiNextjsFill, RiSupabaseFill } from "react-icons/ri";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -40,6 +40,11 @@ const Technologies = () => {
             title: "Node.js",
             description: "A runtime environment to build scalable network applications.",
             icon: <FaNode className="text-6xl text-white" />,
+        },
+        {
+            title: "Supabase",
+            description: "Supabase is a Backend-as-a-Service (BaaS) app development platform.",
+            icon: <RiSupabaseFill className="text-6xl text-white" />,
         },
         {
             title: "Databases",

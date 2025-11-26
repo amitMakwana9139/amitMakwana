@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://amit-makwana.vercel.app/
+
+# Sitemaps
+Sitemap: https://amit-makwana.vercel.app/sitemap.xml
