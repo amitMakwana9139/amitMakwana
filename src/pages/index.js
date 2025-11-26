@@ -47,7 +47,6 @@ export default function Index() {
                 <link rel="canonical" href="https://amit-makwana.vercel.app/" />
             </Head>
 
-            <Navbar />
             <Hero />
             <Companies />
             <AboutMe />
