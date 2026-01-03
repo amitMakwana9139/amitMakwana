@@ -13,38 +13,47 @@ export default function Index() {
         <>
             {/* 🔥 SEO TAGS HERE */}
             <Head>
-                <title>Amit Makwana | MERN Developer Portfolio</title>
+                <title>
+                    Amit Makwana | React, Next.js & MERN Stack Web Developer
+                </title>
 
                 <meta
                     name="description"
-                    content="Amit Makwana – MERN Stack Developer specializing in Next.js, Node.js, MongoDB, PostgreSQL, AWS Lightsail & EC2. Explore my projects, skills, and professional work."
+                    content="Amit Makwana is a professional MERN Stack Web Developer specializing in React, Next.js, Node.js, MongoDB, PostgreSQL, HTML, CSS and AWS. I build fast, SEO-friendly websites and web applications."
                 />
 
                 <meta
                     name="keywords"
-                    content="Amit Makwana, MERN Developer, Next.js Developer, Node.js Developer, MongoDB Developer, PostgreSQL, AWS EC2, AWS Lightsail, Full Stack Developer"
+                    content="Amit Makwana, Web Developer, MERN Stack Developer, React Developer, Next.js Developer, Node.js Developer, Full Stack Developer, Freelance Web Developer, Website Developer for Hire, MongoDB Developer, PostgreSQL Developer, AWS Developer"
                 />
 
                 <meta name="author" content="Amit Makwana" />
+
+                <meta name="robots" content="index, follow" />
+
                 <meta name="google-site-verification" content="_uIxCJZJZp2Q3SKlQFqX6qNQoodTvAlNOTr_XDdOlw8" />
-                <meta property="og:title" content="Amit Makwana | MERN Developer Portfolio" />
+
+                {/* Open Graph */}
+                <meta property="og:title" content="Amit Makwana | MERN Stack Web Developer" />
                 <meta
                     property="og:description"
-                    content="MERN Stack Developer specializing in Next.js, Node.js, MongoDB, PostgreSQL, AWS Lightsail & EC2."
+                    content="React & Next.js Developer building modern, fast and SEO-friendly web applications using MERN Stack and AWS."
                 />
                 <meta property="og:image" content="/og-image.png" />
                 <meta property="og:url" content="https://amit-makwana.vercel.app/" />
                 <meta property="og:type" content="website" />
 
+                {/* Twitter */}
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Amit Makwana | MERN Developer Portfolio" />
+                <meta name="twitter:title" content="Amit Makwana | MERN Stack Developer" />
                 <meta
                     name="twitter:description"
-                    content="Explore the portfolio of MERN Developer Amit Makwana. Projects, skills, and expertise in Next.js, Node.js, MongoDB, PostgreSQL, AWS."
+                    content="Professional MERN Stack Developer specializing in React, Next.js, Node.js and AWS."
                 />
                 <meta name="twitter:image" content="/og-image.png" />
 
                 <link rel="canonical" href="https://amit-makwana.vercel.app/" />
+
             </Head>
 
             <Hero />
