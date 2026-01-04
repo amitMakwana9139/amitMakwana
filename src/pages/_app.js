@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Footer from '@/components/Footer';
 
 function MyApp({ Component, pageProps }) {
+
     useEffect(() => {
         AOS.init({ duration: 1000 });
     }, []);
