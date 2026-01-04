@@ -11,8 +11,8 @@ const Companies = () => {
         { name: "AdOpus", logo: "./images/compnies/adopuslogo.png" },
         { name: "Satadhar", logo: "./images/compnies/satadhar.png" },
         { name: "Belite", logo: "./images/compnies/belite.png" },
-        // { name: "Vianee", logo: "./images/compnies/Vianee.webp" },
         { name: "can-connect", logo: "./images/compnies/canconnect.png" },
+        // { name: "Vianee", logo: "./images/compnies/Vianee.webp" },
     ];
 
     return (
@@ -35,7 +35,7 @@ const Companies = () => {
                     data-aos="fade-up"
                     data-aos-delay="200"
                 >
-                    A few of the incredible brands I’ve had the privilege to collaborate with.
+                    A few of the incredible brands I&apos;ve had the privilege to collaborate with.
                 </p>
 
                 {/* Swiper Slider */}
